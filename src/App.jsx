@@ -13,6 +13,7 @@ import TeamsAuth from './pages/user/auth/TeamsAuth';
 const App = () => {
 
   useEffect(async () => {
+    console.log("mai idhar hu")
     const { managementToken } = await sdk.getThriveStackToken("STACKIFY's Auth Token");
   }, [])
 

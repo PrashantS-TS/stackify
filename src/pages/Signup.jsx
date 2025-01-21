@@ -9,6 +9,7 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        console.log("mai idhar hu")
         // await sdk.triggerWorkflowAndRedirect('ZgQSaC6UmR', email, user);
         // setError('');
         // Example for triggering the signup workflow
